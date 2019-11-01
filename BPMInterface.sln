@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMInterface", "BPMInterface\BPMInterface.csproj", "{1FFA250D-8FD1-42DF-A30D-7A26FFDD7F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMInterfaceToolkit", "BPMInterfaceToolkit\BPMInterfaceToolkit.csproj", "{F68FC6BA-D34F-4889-AA15-28569F3B60AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMInterfaceBLL", "BPMInterfaceBLL\BPMInterfaceBLL.csproj", "{635DF7EB-7D84-45A3-A4D3-20760A8778F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMInterfaceDAL", "BPMInterfaceDAL\BPMInterfaceDAL.csproj", "{94D10AD6-5D32-485C-9E7C-53CC92932D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMInterfaceModel", "BPMInterfaceModel\BPMInterfaceModel.csproj", "{68A557FD-7B8A-4CD3-8690-208E9805665D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportVendorPaymentPeriodData", "ImportVendorPaymentPeriodData\ImportVendorPaymentPeriodData.csproj", "{EC187176-3330-4568-AD86-F82C907E83CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMReports", "BPMReports\BPMReports.csproj", "{F757106F-CA43-4091-8C3A-3A5563114F08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FFA250D-8FD1-42DF-A30D-7A26FFDD7F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFA250D-8FD1-42DF-A30D-7A26FFDD7F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFA250D-8FD1-42DF-A30D-7A26FFDD7F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFA250D-8FD1-42DF-A30D-7A26FFDD7F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68FC6BA-D34F-4889-AA15-28569F3B60AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68FC6BA-D34F-4889-AA15-28569F3B60AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68FC6BA-D34F-4889-AA15-28569F3B60AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68FC6BA-D34F-4889-AA15-28569F3B60AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635DF7EB-7D84-45A3-A4D3-20760A8778F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635DF7EB-7D84-45A3-A4D3-20760A8778F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635DF7EB-7D84-45A3-A4D3-20760A8778F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635DF7EB-7D84-45A3-A4D3-20760A8778F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D10AD6-5D32-485C-9E7C-53CC92932D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D10AD6-5D32-485C-9E7C-53CC92932D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D10AD6-5D32-485C-9E7C-53CC92932D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D10AD6-5D32-485C-9E7C-53CC92932D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A557FD-7B8A-4CD3-8690-208E9805665D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A557FD-7B8A-4CD3-8690-208E9805665D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A557FD-7B8A-4CD3-8690-208E9805665D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A557FD-7B8A-4CD3-8690-208E9805665D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC187176-3330-4568-AD86-F82C907E83CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC187176-3330-4568-AD86-F82C907E83CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC187176-3330-4568-AD86-F82C907E83CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC187176-3330-4568-AD86-F82C907E83CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F757106F-CA43-4091-8C3A-3A5563114F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F757106F-CA43-4091-8C3A-3A5563114F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F757106F-CA43-4091-8C3A-3A5563114F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F757106F-CA43-4091-8C3A-3A5563114F08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

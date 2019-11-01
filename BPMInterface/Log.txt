@@ -1,0 +1,70 @@
+PaymentInfo: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 66  2019/10/19 9:22:45
+PaymentInfo: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 66  2019/10/19 9:25:18
+PaymentInfo: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: a. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 25  2019/10/19 9:30:37
+PaymentInfo: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: a. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 25  2019/10/19 9:32:16
+PaymentInfo: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: a. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 25  2019/10/19 9:38:10
+PaymentInfo: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: a. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 25  2019/10/19 9:43:34
+PaymentInfo: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: a. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 25  2019/10/19 9:56:28
+PaymentInfo: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: a. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 25  2019/10/19 9:58:57
+邮件发送失败，System.Net.Mail.SmtpException: 邮箱不可用。 服务器响应为:authentification needed
+   在 System.Net.Mail.DataCommand.CheckResponse(SmtpStatusCode statusCode, String serverResponse)
+   在 System.Net.Mail.DataCommand.Send(SmtpConnection conn)
+   在 System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   在 System.Net.Mail.SmtpClient.Send(MailMessage message)
+   在 BPMInterfaceToolkit.EmailHelper.SendMails(String emailto, String emailcc, String subject, String body, String displayname) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\EmailHelper.cs:行号 148  2019/10/19 9:59:26
+PaymentInfo: Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: a. Path '', line 0, position 0.
+   在 Newtonsoft.Json.JsonTextReader.ParseValue()
+   在 Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 25  2019/10/19 10:03:45
+yineng_jin@shry.net, hongwei_qian@shry.net发送成功！  2019/10/19 10:03:49
+2019/10/29 10:16:56接收到信息：[{"mNativeMoney":"10000","cPurpose":"合同号：T100,供应商：（模具）上海汇佳塑料模具有限公司,付款阶段：2","cBillId":"123456","mOriginMoney":"10000","cAccountTo":"12345678910","bInner":"1","cBillDate":"2019-10-26"}]  2019/10/29 10:16:56
+PaymentInfo: System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 44  2019/10/29 10:17:47
+2019/10/29 10:19:47接收到信息：{"mNativeMoney":"10000","cPurpose":"合同号：T100,供应商：（模具）上海汇佳塑料模具有限公司,付款阶段：2","cBillId":"123456","mOriginMoney":"10000","cAccountTo":"12345678910","bInner":"1","cBillDate":"2019-10-26"}  2019/10/29 10:19:47
+PaymentInfo: Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   在 Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 26  2019/10/29 10:20:32
+2019/10/29 10:20:40接收到信息：{"mNativeMoney":"10000","cPurpose":"合同号：T100,供应商：（模具）上海汇佳塑料模具有限公司,付款阶段：2","cBillId":"123456","mOriginMoney":"10000","cAccountTo":"12345678910","bInner":"1","cBillDate":"2019-10-26"}  2019/10/29 10:20:40
+PaymentInfo: Newtonsoft.Json.JsonReaderException: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.
+   在 Newtonsoft.Json.Linq.JArray.Load(JsonReader reader, JsonLoadSettings settings)
+   在 Newtonsoft.Json.Linq.JArray.Parse(String json, JsonLoadSettings settings)
+   在 BPMInterfaceToolkit.JsonAnalysis.JsonAnalysisFunction(String json, String type) 位置 E:\Program\BPMInterface\BPMInterfaceToolkit\JsonAnalysis.cs:行号 26  2019/10/29 10:21:25
+2019/10/29 10:23:44接收到信息：[{"mNativeMoney":"10000","cPurpose":"合同号：T100,供应商：（模具）上海汇佳塑料模具有限公司,付款阶段：2","cBillId":"123456","mOriginMoney":"10000","cAccountTo":"12345678910","bInner":"1","cBillDate":"2019-10-26"}]  2019/10/29 10:23:44
+2019/10/29 10:24:03接收到信息：[{"mNativeMoney":"10000","cPurpose":"合同号：T100,供应商：（模具）上海汇佳塑料模具有限公司,付款阶段：2","cBillId":"123456","mOriginMoney":"10000","cAccountTo":"12345678910","bInner":"1","cBillDate":"2019-10-26"}]  2019/10/29 10:24:03
+2019/10/29 10:25:59接收到信息：[{"mNativeMoney":"10000","cPurpose":"合同号：T100,供应商：（模具）上海汇佳塑料模具有限公司,付款阶段：2","cBillId":"123456","mOriginMoney":"10000","cAccountTo":"12345678910","bInner":"1","cBillDate":"2019-10-26"}]  2019/10/29 10:25:59
+2019/10/29 11:42:44接收到信息：[{"mNativeMoney":"10000","cPurpose":"合同号：T100,供应商：（模具）上海汇佳塑料模具有限公司,付款阶段：2","cBillId":"123456","mOriginMoney":"10000","cAccountTo":"12345678910","bInner":"1","cBillDate":"2019-10-26"}]  2019/10/29 11:42:44
+1  2019/10/29 11:42:51
+2019/10/29 11:44:08接收到信息：[{"mNativeMoney":"5000000","cPurpose":"合同号：T100,供应商：（模具）上海汇佳塑料模具有限公司,付款阶段：2","cBillId":"123456","mOriginMoney":"5000000","cAccountTo":"12345678910","bInner":"1","cBillDate":"2019-10-26"}]  2019/10/29 11:44:08
+3  2019/10/29 11:44:12
+2019/10/29 11:45:03接收到信息：[{"mNativeMoney":"4000000","cPurpose":"合同号：T100,供应商：（模具）上海汇佳塑料模具有限公司,付款阶段：2","cBillId":"123456","mOriginMoney":"4000000","cAccountTo":"12345678910","bInner":"1","cBillDate":"2019-10-26"}]  2019/10/29 11:45:03
+2  2019/10/29 11:45:08
+2019/10/30 9:45:23接收到信息：[{"mNativeMoney":"3.00","cPurpose":"合同号：T0021,供应商：上海日用－友捷汽车电气有限公司,付款阶段：3","cBillId":"FKD00000037","mOriginMoney":"3.00","cAccountTo":"310066221010123065347","bInner":"1","cBillDate":"2019/10/30"}]  2019/10/30 9:45:23
+1  2019/10/30 9:45:35
